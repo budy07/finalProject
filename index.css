@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  background-color: #353535;
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 1000%;
+  text-align: center;
+  padding: 2%;
+  background-color: blueviolet;
+  height: 500px;
+}
+
+h1 {
+  color: #ecf0f1;
+}
+
+h1 + p {
+  margin-bottom: 5%;
+  color: #3498db;
+}
+
+.scoreWrap {
+  float: left;
+}
+.timeWrap {
+  float: right;
+}
+
+.outerWrap:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bg {
+  background-color: #04af71;
+  background-size: 500px;
+}
+
+button {
+  border: none;
+  background-color: purple;
+  box-shadow: 0px 5px 0px 0px gray;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.wordsContainer {
+  position: relative;
+  transition: all 0.2s;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  background-color: orange;
+  height: 200px;
+  border-radius: 10px;
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.scoreWrap p,
+.scoreWrap span,
+.timeWrap p,
+.timeWrap span {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.wordsWrap {
+  margin-top: 50px;
+}
+
+.words span {
+  font-size: 60px;
+  letter-spacing: 1px;
+  color: #ecf0f1;
+}
+
+.txt-field {
+  text-align: center;
+}

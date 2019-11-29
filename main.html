@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typing Warrior</title>
+  </head>
+  <link rel="stylesheet" href="main.css" />
+  <body class="bg-dark text-white ">
+    <body bgcolor="skyblue"
+      <br>
+      <br>
+      <br>
+        <div class="wrapper"></div>
+    <header class="bg-secondary text-center p-3 mb-5">
+      <center>
+        <h1>Typing Warrior</h1>
+      </center>
+    </header>
+    <div class="container text-center">
+      <!-- Word & Input -->
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <center>
+          <p class="lead">
+            Waktu'mu
+            <span class="text-success" id="seconds">10</span> Seconds:
+          </center>
+          </p>
+          <center>
+          <h2 class="display-2 mb-5" id="current-word">hello</h2>
+         </center>
+
+         <center>
+          <input
+            type="text"
+            class="form-control form-control-lg"
+            placeholder="Start typing..."
+            id="word-input"
+            autofocus
+          />
+          </center>
+          <center>
+          <h4 class="mt-3" id="message"></h4>
+          </center>
+
+          <!-- Time & Score Columns -->
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <center>
+              <h3>
+                Time Left:
+                <span id="time">0</span>
+              </h3>
+              </center>
+            </div>
+            <div class="col-md-6">
+              <center>
+              <h3>
+                Score:
+                <span id="score">0</span>
+              </h3>
+              </center>
+            </div>
+          </div>
+
+          <!-- Instructions -->
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <div class="card card-body bg-secondary text-white">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
